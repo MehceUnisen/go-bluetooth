@@ -9,8 +9,8 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-// const baseAdvertismentPath = "/org/bluez/%s/apps/advertisement%d"
-const BaseAdvertismentPath = "/go_bluetooth/%s/advertisement/%d"
+const BaseAdvertismentPath = "/org/bluez/%s/apps/advertisement%d"
+// const BaseAdvertismentPath = "/go_bluetooth/%s/advertisement/%d"
 
 var advertisingCount int = -1
 
